@@ -1,0 +1,101 @@
+import { ExperienceItem, EducationItem } from '../types';
+
+export const experienceData: ExperienceItem[] = [
+  {
+    id: 'exp-1',
+    role: 'Full Stack & Generative AI Web Engineer',
+    urRole: 'فل اسٹیک و جنریٹو اے آئی ویب انجینئر',
+    company: 'Independent Software Solutions & Global Clients',
+    urCompany: 'انڈیپینڈنٹ سوفٹ ویئر سلوشنز و گلوبل کلائنٹس',
+    period: '2024 - Present',
+    urPeriod: '2024 - تا حال',
+    location: 'Remote / Global',
+    urLocation: 'ریموٹ / عالمی سطح پر',
+    type: 'Full-time / Client Engagements',
+    urType: 'فل ٹائم و کلائنٹ پروجیکٹس',
+    achievements: [
+      'Architected and deployed production-grade web applications integrating Generative AI (Gemini API & LLMs) for conversational advisors and smart search.',
+      'Engineered interactive web game engines and AI opponent heuristics (including Master Chess engine evaluation) operating at 60 FPS in modern browsers.',
+      'Implemented streaming AI completion pipelines, type-safe API workflows, and edge caching using Next.js App Router and React 19.',
+      'Designed responsive glassmorphism UI systems with Tailwind CSS, achieving 98+ Google Lighthouse scores across desktop and mobile.',
+      'Constructed automated continuous delivery pipelines connecting GitHub repositories directly to Vercel production edge servers.',
+    ],
+    urAchievements: [
+      'جنریٹو اے آئی اور لارج لینگویج ماڈلز کی مدد سے اسمارٹ سرچ اور ایڈوائزری سسٹمز تیار کیے۔',
+      'ٹائپ اسکرپٹ میں بغیر کسی فریم ورک کے 60 فریم فی سیکنڈ پر شطرنج اور براؤزر گیم انجنز بنائے۔',
+      'جدید ترین Next.js اور React 19 کے ذریعے تیز رفتار ایج سرور رینڈرنگ فراہم کی۔',
+      'گوگل لائٹ ہاؤس پر 98+ کارکردگی کا اسکور حاصل کرنے والے ڈیزائن سسٹمز تخلیق کیے۔',
+      'گٹ ہب سے ورسل پروڈکشن سرورز تک خودکار ڈیپلائمنٹ پائپ لائنز قائم کیں۔',
+    ],
+    technologies: ['Next.js', 'React', 'Generative AI', 'TypeScript', 'Tailwind CSS', 'Vercel Edge'],
+  },
+  {
+    id: 'exp-2',
+    role: 'AI-Assisted Frontend & UI/UX Specialist',
+    urRole: 'اے آئی اسسٹڈ فرنٹ اینڈ و یو آئی اسپیشلسٹ',
+    company: 'Modern Web Solutions',
+    urCompany: 'ماڈرن ویب سلوشنز',
+    period: '2023 - 2024',
+    urPeriod: '2023 - 2024',
+    location: 'Pakistan',
+    urLocation: 'پاکستان',
+    type: 'Contract / Collaborative',
+    urType: 'کنٹریکٹ / اشتراکی',
+    achievements: [
+      'Integrated conversational AI widgets, smart search autocompletes, and dynamic content generators across modern client web applications.',
+      'Constructed modular atomic component libraries with adaptive layouts and responsive glassmorphism styling.',
+      'Collaborated closely on client requirements to transform Figma mockups into pixel-perfect, accessible, and performant web portals.',
+      'Optimized client-side rendering workflows and integrated LocalStorage caching to deliver instant load times without server lag.',
+    ],
+    urAchievements: [
+      'مختلف ویب سائٹس میں چیٹ بوٹس، اسمارٹ آٹو کمپلیٹ اور ڈائنامک مواد جنریٹرز کو جوڑا۔',
+      'ماڈیولر اور ری یوزایبل کمپوننٹ لائبریریز تیار کیں۔',
+      'فگما ڈیزائنز کو پکسل پرفیکٹ، ریسپانسیو اور لائیو ویب کوڈ میں تبدیل کیا۔',
+      'لوکل اسٹوریج اور براؤزر کیشنگ کے ذریعے پیج لوڈ اسپیڈ کو غیر معمولی طور پر تیز کیا۔',
+    ],
+    technologies: ['React', 'JavaScript (ES6+)', 'Tailwind CSS', 'Figma', 'Responsive Design', 'LocalStorage'],
+  },
+];
+
+export const educationData: EducationItem[] = [
+  {
+    id: 'edu-1',
+    degree: 'Computer Science & Software Development',
+    urDegree: 'کمپیوٹر سائنس و سافٹ ویئر ڈویلپمنٹ',
+    institution: 'Higher Education Institute',
+    urInstitution: 'ہائیر ایجوکیشن انسٹیٹیوٹ',
+    period: '2022 - 2026',
+    urPeriod: '2022 - 2026',
+    location: 'Pakistan',
+    urLocation: 'پاکستان',
+    highlights: [
+      'Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Systems, Web Technologies, Software Engineering',
+      'Specialized focus on Modern Frontend Systems, Full-Stack Architecture, and Interactive Computing',
+      'Consistent top-tier project evaluations for technical creativity and clean coding standards',
+    ],
+    urHighlights: [
+      'بنیادی کورسز: ڈیٹا اسٹرکچرز، آبجیکٹ اورینٹڈ پروگرامنگ، ڈیٹا بیس اور سافٹ ویئر انجینئرنگ',
+      'جدید ویب سسٹمز اور فل اسٹیک آرکیٹیکچر پر خصوصی عملی توجہ',
+      'تکنیکی تخلیقی صلاحیتوں اور معیاری کوڈنگ پر مسلسل اعلیٰ ترین درجہ بندی',
+    ],
+  },
+  {
+    id: 'edu-2',
+    degree: 'Full-Stack Web Engineering Certification',
+    urDegree: 'فل اسٹیک ویب انجینئرنگ سرٹیفیکیشن',
+    institution: 'Specialized Track',
+    urInstitution: 'اسپیشلائزڈ پروگرام',
+    period: '2023',
+    urPeriod: '2023',
+    location: 'Online',
+    urLocation: 'آن لائن',
+    highlights: [
+      'Comprehensive mastery of React ecosystem, Next.js Server Components, TypeScript compilation, and RESTful APIs',
+      'Created and successfully deployed multiple real-world consumer applications to Vercel production edge',
+    ],
+    urHighlights: [
+      'ری ایکٹ ایکو سسٹم، نیکسٹ جے ایس سرور کمپوننٹس اور ریسٹ فل اے پی آئیز میں مکمل مہارت',
+      'حقیقی صارفین کے لیے مختلف جدید ایپلی کیشنز تیار کر کے ورسل پر کامیابی سے لائیو کیں',
+    ],
+  },
+];
